@@ -1,0 +1,90 @@
+section {
+	width: 85%;
+	background-color: white;
+	padding: 20px;
+	margin: 25px auto 0;
+	margin-top: 50px;
+}
+
+section > form {
+	width: 30%;
+	border: 1px solid gray;
+	margin: 25px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+section > p, section h3 {
+	text-indent: 30px;
+	line-height: 2;
+}
+
+form label {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+form input[type="checkbox"]{
+	float: right;
+	margin: 10px 0;
+}
+
+form > div label:first-of-type {
+	font-weight: bold;
+}
+
+form > div label:not(:first-of-type){
+	color: gray;
+}
+
+.alap_gomb {
+	display: block;
+	margin: 20px auto 10px;
+}
+
+#kuldes:hover {
+	opacity: 0.75;
+}
+
+form > div:not(:first-of-type){
+	display: none;
+}
+
+.active {
+	background-color: #035C10;
+}
+
+
+/***************************/
+
+#warning{
+	display: none;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	width: 400px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dialog_header{
+	padding: 20px;
+	background: #ff9800;
+	color: #ffffff;
+}
+
+.dialog_body{
+	padding: 20px;
+}
+
+#close_dialog{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	transform: rotate(45deg);
+	background-color: #ff9800;
+	color: #ffffff;
+	cursor: pointer;
+}

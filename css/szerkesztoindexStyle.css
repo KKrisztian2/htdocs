@@ -1,0 +1,84 @@
+section {
+	width: 85%;
+	background-color: white;
+	padding: 20px;
+	margin: 25px auto 0;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+[type="submit"]{
+	border: none;
+}
+.error{
+	color: #ff3333;
+	display: inline-block;
+}
+
+.general{
+	width: 100%;
+	background-color: #ffebe8;
+	border: 1px solid #dd3c10;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.registOK{
+	display: inline-block;
+	width: 100%;
+	background-color: #ccffcc;
+	border: 1px solid #00e600;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #00e600;
+}
+form input[type="text"], form select{
+	display: inline-block;
+	margin: 8px;
+	padding: 4px;
+	outline: none;
+}
+label {
+	display: inline-block;
+	margin: 10px;
+}
+#db, table, #helyes1, #helyes2, #helyes3, #helyes_teszt {
+	display: none;
+}
+
+label[for="helyes_teszt"], label[for="db"], label[for="helyes1"]{
+	display: none;
+}
+table {
+	width: fit-content;
+	padding: 10px;
+	margin: 15px;
+}
+#plusz_informaciok {
+	background-color: #EAFFE5;
+	width: 80%;
+	padding: 20px;
+}
+#mentes {
+	display: block;
+	width: fit-content;
+	background-color: #80b3ff;
+	color: #ffffff;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	padding: 10px;
+	border: none;
+	outline: none;
+	font-family: inherit;
+	cursor: pointer;
+}
+#mentes:hover {
+	opacity: 0.75;
+}
+p{
+	width: fit-content;
+	margin: 0 auto;
+	font-weight: bold;
+}

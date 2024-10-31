@@ -1,0 +1,60 @@
+section {
+	width: 85%;
+	background-color: white;
+	padding: 20px;
+	margin: 25px auto 0;
+	margin-top: 50px;
+}
+.eredmeny{
+	width: 30%;
+	margin: 10px;
+	border: 5px ridge #00cc66;
+}
+.fejlec{
+	width: 100%;
+	height: 30px;
+	background-color: #ccffdd;
+}
+h3{
+	width: fit-content;
+	padding: 5px;
+	margin: 0 auto;
+}
+hr{
+	width: 60%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+}
+p{
+	width: fit-content;
+	margin: 3px auto;
+	padding: 5px;
+	text-align: center;
+}
+
+div{
+	display: flex;
+	flex-wrap: wrap;
+	align-items:flex-start;
+}
+#eredmenyek{
+	width: 70%;
+}
+aside{
+	width: 30%;
+}
+
+h2{
+	width: fit-content;
+	margin: 10px auto;
+}
+ol{
+	margin: 0 auto;
+	margin-left: 20px;
+	background-color: #ccffdd;
+	padding: 10px;
+}
+ol li{
+	padding: 5px;
+	line-height: 1.5;
+}

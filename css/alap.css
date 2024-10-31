@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+body {
+	background: url(../kepek/hatte.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+/*Navigációs menü stilusa*/
+
+header {
+	z-index: 10;
+	width: 100%;
+	background-color: #4CA46B;
+	color: white;
+	position: fixed;
+	top: 0;
+}
+header ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+header ul li {
+	width: 15%;
+	cursor: pointer;
+	text-align: center;
+}
+header ul li:hover{
+	background-color: #99CFAD;
+}
+
+header a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+}
+
+
+/* GOMBOK */
+
+#alap_gomb, .alap_gomb{
+	display: inline-block;
+	width: fit-content;
+	padding: 10px 15px;
+	background-color: #4CA46B;
+	color: white;
+	margin: 5px;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+#alap_gomb:hover, .alap_gomb:hover {
+	opacity: 0.75;
+}
+
+#bezar_gomb, .bezar_gomb{
+	display: inline-block;
+	width: fit-content;
+	padding: 3px 6px;
+	background-color: #EC2E0D;
+	color: white;
+	float: right;
+	cursor: pointer;
+	border-radius: 25%;
+}
+.alap_gomb_kek, #alap_gomb_kek{
+	display: inline-block;
+	margin: 5px;
+	padding: 4px 8px;
+	border: none;
+	outline: none;
+	background-color: #4E7696;
+	color: white;
+	cursor: pointer;
+	font-family: inherit;
+}
+.alap_gomb_kek:hover, #alap_gomb_kek:hover{
+	opacity: 0.75;
+}
+
+.alap_gomb_piros {
+	background-color: #BD0E06;
+	display: inline-block;
+	margin: 5px;
+	padding: 4px 12px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.alap_gomb_piros:hover {
+	opacity: 0.75;
+}

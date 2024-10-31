@@ -1,0 +1,64 @@
+body > section {
+	width: 85%;
+	background-color: white;
+	padding-top: 25px;
+	margin: 25px auto 0;
+	margin-top: 50px;
+}
+
+#kesz_feladatsorok {
+	margin: 15px 80px;
+	border: 1px solid #f1f1f1;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#kesz_feladatsorok td {
+	width: 150px;
+	border: 1px solid #f1f1f1;
+	padding: 5px;
+	background-color: #2B83D3;
+	color: white;
+	
+}
+
+#kesz_feladatsorok a {
+	display: block;
+	color: white;
+	width: 100%;
+	padding: 15px;
+}
+
+#kesz_feladatsorok a:hover{
+	color: #032E01; 
+}
+
+#kesz_feladatsorok tr > td:first-of-type{
+	font-weight: bold;
+	width: 150px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+#kesz_feladatsorok tr > td:not(:first-of-type){
+	display: none;
+}
+
+.leiras {
+	width: 80%;
+	background-color: inherit;
+	margin: 0 auto;
+	line-height: 1.5;
+	padding-bottom: 25px;
+}
+
+#kesz_feladatsorok + div{
+	text-align: center;
+	font-style: italic;
+	margin-top: 30px;
+}
+
+.active {
+	background-color: #035C10;
+}
+
